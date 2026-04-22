@@ -13,7 +13,7 @@ Example command:
 
 ```bash
 # Clone the chirpstack-device-profiles repository.
-git clone https://github.com/chirpstack/chirpstack-device-profiles.git
+git clone https://github.com/Afira-Tecnologia/chirpstack-device-profiles.git
 
 # Execute the import command.
 chirpstack -c /etc/chirpstack import-device-profiles -d /path/to/chirpstack-device-profiles
