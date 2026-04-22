@@ -1,5 +1,5 @@
 [device]
-id = "4ab69083-2dc9-4k0c-b988-9558d85abb72"
+id = "id = "4ab69083-2dc9-4a0c-b988-9558d85abb72""
 name = "Afiralink Pulse"
 description = "O AfiraLink Pulse é um endpoint IoT de alto desempenho projetado para a telemetria avançada de medidores de pulso. Com conectividade LoRaWAN™ de longo alcance, sendo a solução ideal para a individualização de consumo de água e gás em ambientes residenciais ou industriais.O equipamento monitora simultaneamente até 3 entradas digitais independentes, permitindo a leitura de múltiplos medidores com um único dispositivo. Além da precisão na contagem, o produto conta com mecanismos de segurança de hardware para detecção de violações e total flexibilidade de configuração remota."
 
