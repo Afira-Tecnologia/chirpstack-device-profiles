@@ -16,11 +16,11 @@ function decodeUplink(input) {
 
     return {
         data: {
-            temperatura:     t,
-            umidade:         h,
-            temperatura_ext: te,
-            tensao:          v,
-            reed:            r
+            temperatura:       t,
+            umidade:           h,
+            temperatura_pt100: te,
+            tensao:            v,
+            reed:              r
         }
     };
 }
