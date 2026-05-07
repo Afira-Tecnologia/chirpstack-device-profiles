@@ -1,0 +1,14 @@
+[device]
+id = "587e365b-71b2-404c-b43e-50c633dfcbbb"
+name = "Afiralink Sense"
+description = "O AfiraLink Sense é um endpoint IoT de alto desempenho projetado para a telemetria avançada de temperatura e umidade. Com conectividade LoRaWAN™ de longo alcance, e total flexibilidade de configuração remota."
+
+[[device.firmware]]
+version = "1.0.0"
+profiles = [
+    "AU915-1_0_3.toml",
+]
+codec = "afiralink-sense.js"
+
+[device.metadata]
+product_url = "https://afira.io/produtos"
