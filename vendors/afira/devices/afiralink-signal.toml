@@ -1,0 +1,14 @@
+[device]
+id = "a755717b-5caa-4f2d-bd24-7462cbd5b9fc"
+name = "Afiralink Signal"
+description = "O AfiraLink Signal é um endpoint IoT de alto desempenho projetado para a telemetria avançada de sinais analogicos de sensores 4-20mA. Com conectividade LoRaWAN™ de longo alcance, e total flexibilidade de configuração remota."
+
+[[device.firmware]]
+version = "1.0.0"
+profiles = [
+    "AU915-1_0_3.toml",
+]
+codec = "afiralink-signal.js"
+
+[device.metadata]
+product_url = "https://afira.io/produtos"
