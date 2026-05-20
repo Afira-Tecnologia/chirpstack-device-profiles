@@ -1,0 +1,14 @@
+[device]
+id = "43218444-dfcd-47ac-be78-9db53d35f67a"
+name = "Afiralink Sense Mini"
+description = "O AfiraLink Sense mini é um endpoint IoT de alto desempenho projetado para a telemetria avançada de temperatura e umidade. Com conectividade LoRaWAN™ de longo alcance, e total flexibilidade de configuração remota."
+
+[[device.firmware]]
+version = "1.0.0"
+profiles = [
+    "AU915-1_0_3.toml",
+]
+codec = "afiralink-sense.js"
+
+[device.metadata]
+product_url = "https://afira.io/produtos"
