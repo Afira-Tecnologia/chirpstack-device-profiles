@@ -8,7 +8,7 @@ version = "1.0.0"
 profiles = [
     "AU915-1_0_3.toml",
 ]
-codec = "afiralink-sense.js"
+codec = "afiralink-sense-mini.js"
 
 [device.metadata]
 product_url = "https://afira.io/produtos"
