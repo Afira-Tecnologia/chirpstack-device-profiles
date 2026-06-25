@@ -1,0 +1,14 @@
+[device]
+id = "23ff5aab-afee-43bf-95f1-565850ed92fb"
+name = "Estação Meteorológica"
+description = "IoT para medições em diferentes níveis, a Khomp desenvolveu a Estação Meteorológica – dispositivo portátil que inova ao integrar em uma só estrutura 7 sensores que captam dados de temperatura, umidade, precipitação, velocidade e direção do vento, radiação ultravioleta e pressão atmosférica."
+
+[[device.firmware]]
+version = "1.0.0"
+profiles = [
+    "AU915-1_0_3.toml",
+]
+codec = "estacao_metereologica.js"
+
+[device.metadata]
+product_url = "https://app.khomp.com/iot/pt/produto/endpoint-lora-estacao-meteorologica/"

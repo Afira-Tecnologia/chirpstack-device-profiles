@@ -1,0 +1,8 @@
+[vendor]
+id = "ef4a1510-c093-4da3-a079-5ee96ae31010"
+name = "KHOMP"
+vendor_id = 2
+ouis = ["e9e1a1"]
+
+[vendor.metadata]
+homepage = "https://www.khomp.com/"

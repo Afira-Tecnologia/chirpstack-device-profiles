@@ -1,0 +1,14 @@
+[device]
+id = "f72c57e8-3760-468f-8525-1a1d28280195"
+name = "ITC11LI"
+description = "O Medidor de Energia LoRa® com TCs , ou ITE 11LI, é mais um integrante da família de endpoints IoT da Khomp que opera com o protocolo LoRaWAN™. Sua função é realizar a medição do consumo e qualidade energia usando transformadores de corrente (TCs)."
+
+[[device.firmware]]
+version = "1.0.0"
+profiles = [
+    "AU915-1_0_3.toml",
+]
+codec = "itc11li.js"
+
+[device.metadata]
+product_url = "https://app.khomp.com/iot/pt/produto/endpoint-lora-medidor-de-energia-lora-com-tcs/"

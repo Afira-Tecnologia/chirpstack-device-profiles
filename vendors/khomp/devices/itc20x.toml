@@ -1,0 +1,14 @@
+[device]
+id = "1562059b-b372-40f3-a954-12cffd841229"
+name = "ITC20x"
+description = "O ITC 200 é um transmissor LoRa® da linha de Endpoints IoT de sensoriamento sem fio, utilizado para contagem de eventos em equipamentos como hidrômetros e medidores de gás."
+
+[[device.firmware]]
+version = "1.0.0"
+profiles = [
+    "AU915-1_0_3.toml",
+]
+codec = "itc20x.js"
+
+[device.metadata]
+product_url = "https://app.khomp.com/iot/pt/produto/contador-para-leitura-de-agua-e-gas-2/"

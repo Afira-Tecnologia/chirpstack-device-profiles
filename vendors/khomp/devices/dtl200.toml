@@ -1,0 +1,14 @@
+[device]
+id = "2beb6df4-5520-4cf7-8380-0763154f4bd2"
+name = "DTL-200"
+description = "O Khomp DTL-200 é um conversor analógico e digital LoRaWAN desenvolvido para aplicações IoT, oferecendo uma solução completa para monitoramento remoto. Com saídas de alimentação de 5V e 12V, ele permite o monitoramento de sensores digitais e analógicos nos padrões 4-20mA e 0-30V."
+
+[[device.firmware]]
+version = "1.0.0"
+profiles = [
+    "AU915-1_0_3.toml",
+]
+codec = "dtl200.js"
+
+[device.metadata]
+product_url = "https://app.khomp.com/iot/pt/produto/endpoint-sensor-analog-digital/"

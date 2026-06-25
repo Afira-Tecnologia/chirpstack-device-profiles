@@ -1,0 +1,14 @@
+[device]
+id = "d10f774d-d35d-4be2-9be8-96953e279699"
+name = "NIT2XLI"
+description = "O Endpoint LoRa da Khomp foi desenvolvido para transmitir os dados coletados do local para alimentação de sistemas de inteligência com IoT. Através de sensores conectados ao Endpoint, este faz a leitura de temperatura, umidade e contato de locais como o solo para a agricultura, temperatura de refrigeradores e estado de porta aberta em geladeiras. Além disso, é capaz de medir a temperatura e umidade do ambiente em que está instalado, transmitindo o cenário completo para a interface do integrador."
+
+[[device.firmware]]
+version = "1.0.0"
+profiles = [
+    "AU915-1_0_3.toml",
+]
+codec = "nit2xli.js"
+
+[device.metadata]
+product_url = "https://app.khomp.com/iot/pt/produto/endpoint-lora-nit-sensor-transmissor/"
