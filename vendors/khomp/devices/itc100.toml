@@ -1,12 +1,7 @@
 [device]
 id = "c95076cb-7252-4742-aaea-6acef93c2a7d"
 name = "ITC100"
-description = "O ITC 100 SZ pertence a linha de Endpoints IoT Khomp. É um transmissor de sensoriamento
-sem fio, utilizado para contar eventos de equipamentos com saída de contato seco (reed switch,
-coletor aberto ou outro).
-O dispositivo possui um rádio LoRa® e utiliza protocolo LoRaWAN™ 1.0.3.
-É possível "identificar fraude" e "constatar o sentido do fluxo" (direto ou inverso) caso o
-equipamento ligado ao ITC 100 SZ possua saídas específicas para estas funções."
+description = "O ITC 100 SZ pertence a linha de Endpoints IoT Khomp. É um transmissor de sensoriamento sem fio, utilizado para contar eventos de equipamentos com saída de contato seco (reed switch,coletor aberto ou outro)."
 
 [[device.firmware]]
 version = "1.0.1"
