@@ -1,0 +1,14 @@
+[device]
+id = "23cef26e-1325-41d6-adef-7634929cbc15"
+name = "DTL-100"
+description = "O DTL-100 é um sensor LoRaWAN de temperatura e umidade para ambientes internos, podendo ser possível conectar sensores externos via entrada USB-C. Os sensores internos de temperatura e umidade mede de -40 a 60 °C (depende da pilha conectada), e umidade de 0 a 99% com tolerância de 3% RH (umidade relativa)."
+
+[[device.firmware]]
+version = "1.0.0"
+profiles = [
+    "AU915-1_0_3.toml",
+]
+codec = "dtl100.js"
+
+[device.metadata]
+product_url = "https://app.khomp.com/iot/pt/produto/sensor-temp-umidade-indoor-lorawan/"
