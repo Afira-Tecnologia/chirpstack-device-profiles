@@ -1,7 +1,7 @@
 [vendor]
-id = "3"
+id = "ae1def20-2920-4f8c-a0a9-3c99f095bd1c"
 name = "IE Tecnologia"
-vendor_id = 1
+vendor_id = 3
 ouis = ["e8e1a1"]
 
 [vendor.metadata]
