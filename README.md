@@ -21,6 +21,31 @@ chirpstack -c /etc/chirpstack import-device-profiles -d /path/to/chirpstack-devi
 
 See also: [Device profiles documentation](https://www.chirpstack.io/docs/chirpstack/use/device-profiles.html)
 
+### Importing from a machine running ChirpStack 4.14
+
+When the target PostgreSQL database is used by ChirpStack 4.17, run the helper
+script to use the matching importer:
+
+```bash
+sudo bash /home/ubuntu/chirpstack-device-profiles/import-device-profiles.sh
+```
+
+The script downloads the official ChirpStack **4.17.0 PostgreSQL** binary for
+Linux amd64 or arm64 into `/opt/chirpstack-import-4.17.0`, checks its version,
+and imports the repository containing the script using `/etc/chirpstack`.
+Subsequent runs reuse the downloaded binary. The installed ChirpStack service
+and its executable remain unchanged.
+
+It requires Bash, curl, tar and standard Linux coreutils. Use `--help` to see
+the available options, or specify custom paths:
+
+```bash
+sudo bash ./import-device-profiles.sh \
+  --config /etc/chirpstack \
+  --dir /home/ubuntu/chirpstack-device-profiles \
+  --bin-dir /opt/chirpstack-import-4.17.0
+```
+
 ## Adding a new device-profile
 
 ### Fork and clone
