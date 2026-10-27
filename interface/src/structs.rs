@@ -101,6 +101,7 @@ pub struct ProfileAbp {
 pub struct ProfileClassB {
     pub timeout_secs: usize,
 
+    #[serde(rename = "ping_slot_periodicity", alias = "ping_slot_nb_k")]
     #[validate(maximum = 7)]
     pub ping_slot_nb_k: usize,
     #[validate(maximum = 15)]

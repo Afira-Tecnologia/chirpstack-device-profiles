@@ -17,7 +17,7 @@ rx2_freq = 0
 
 [profile.class_b]
 timeout_secs = 0
-ping_slot_nb_k = 0
+ping_slot_periodicity = 0
 ping_slot_dr = 0
 ping_slot_freq = 0
 
