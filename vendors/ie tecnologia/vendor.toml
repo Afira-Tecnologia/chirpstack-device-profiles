@@ -1,0 +1,8 @@
+[vendor]
+id = "a4cc78d6-0244-42cf-aaec-da19a92f27e9"
+name = "IE Tecnologia"
+vendor_id = 1
+ouis = ["e8e1a1"]
+
+[vendor.metadata]
+homepage = "https://ietecnologia.com"

@@ -1,0 +1,14 @@
+[device]
+id = "61df0c99-f93c-484c-a648-a4767d9927ec"
+name = "SM-LA"
+description = "O Medidor de Água LoRaWAN SM-LA é uma solução inteligente para monitoramento de consumo de água a partir de hidrômetros com saída pulsada (contato seco). Indicado para uma ampla variedade de aplicações, permite o acompanhamento do consumo de forma remota e confiável, mesmo em locais sem acesso à internet local."
+
+[[device.firmware]]
+version = "1.0.1"
+profiles = [
+    "AU915-1_0_3.toml",
+]
+codec = "SM-LA.js"
+
+[device.metadata]
+product_url = "https://www.ietecnologia.com/medidor-de-agua/conectividade-lorawan/medidor-de-agua-lorawan-sm-la"
